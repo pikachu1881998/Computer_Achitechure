@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Pikachu08181998/Documents/ece4100/New folder/Project3/procsim.cpp
+cstdio
+-
+cinttypes
+-
+iostream
+-
+deque
+-
+cmath
+-
+procsim.h
+D:/Pikachu08181998/Documents/ece4100/New folder/Project3/procsim.h
+
+D:/Pikachu08181998/Documents/ece4100/New folder/Project3/procsim.h
+cstdint
+-
+cstdio
+-
+
+D:/Pikachu08181998/Documents/ece4100/New folder/Project3/procsim_driver.cpp
+cstdio
+-
+cinttypes
+-
+cstdlib
+-
+cstring
+-
+getopt.h
+-
+unistd.h
+-
+procsim.h
+D:/Pikachu08181998/Documents/ece4100/New folder/Project3/procsim.h
+

@@ -1,0 +1,16 @@
+Reading detailed trace file:
+
+Each line contains trace instruction along with timing information
+
+ADD 3(r) 6(r) -1(r) : 0(f) 1(d) 2(s) 3(e) 4(su):
+
+Instruction: ADD
+3(r): Dest_reg is R3
+6(r): src0_reg is R6
+-1(r): This field represent src1_reg. (-1 means register is not used for second source)
+
+0 (f) : Fetch cycle is 0
+1 (d) : Dispatch_cycle is 1
+2 (s) : schedule cycle is 2
+3 (e) : Execute cycle is 3
+4 (su): State update cycle is 4
