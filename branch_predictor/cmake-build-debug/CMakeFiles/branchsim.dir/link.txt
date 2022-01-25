@@ -1,0 +1,3 @@
+"C:\Users\Pikachu08181998\CLion 2019.3.5\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\branchsim.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\branchsim.dir/objects.a @CMakeFiles\branchsim.dir\objects1.rsp
+C:\MinGW\bin\g++.exe  -Wall -Werror -Wpedantic -Wpointer-arith -Wsign-conversion -Wconversion -pedantic-errors -g -Wl,--whole-archive CMakeFiles\branchsim.dir/objects.a -Wl,--no-whole-archive -o branchsim.exe -Wl,--out-implib,libbranchsim.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\branchsim.dir\linklibs.rsp
